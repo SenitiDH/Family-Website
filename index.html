@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Melliti</title>
         <link rel="icon" type="image/x-icon" href="pictures\Logo.png">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Verknüpfung mit der CSS-Datei -->
-        <scrip src="script.js"></scrip>
+        <scrip src="script.js"></scrip><!-- Verknüpfung mit der JavaScript-Datei -->
     </head>
     <body>
         <header>
@@ -23,32 +24,28 @@
             </nav>
         </header>
         <main>
-            <section class="slideshow-container">
+            <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="image1.jpg">
-                    <div class="text">Caption Text</div>
+                  <div class="numbertext">1 / 3</div>
+                  <img src="image1.jpg" style="width:100%">
                 </div>
-                
+              
                 <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="image2.jpg">
-                    <div class="text">Caption Two</div>
+                  <div class="numbertext">2 / 3</div>
+                  <img src="image2.jpg" style="width:100%">
                 </div>
-                
+              
                 <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="image3.jpg">
-                    <div class="text">Caption Three</div>
+                  <div class="numbertext">3 / 3</div>
+                  <img src="image3.jpg" style="width:100%">
                 </div>
-
+              
                 <div class="dots-container">
-                    <span class="dot"></span> 
-                    <span class="dot"></span> 
-                    <span class="dot"></span> 
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
-                <br>
-            </section>
+              </div>
 
             <section id="about">
                 <div class="container">
